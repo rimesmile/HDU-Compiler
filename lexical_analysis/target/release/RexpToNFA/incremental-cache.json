@@ -1,0 +1,14 @@
+{
+  "packageInformation": {
+    "RexpToNFA": {
+      "rootPackageName": "RexpToNFA",
+      "fileNameHash": "1919751585931488554",
+      "timeStamp": 1731564317,
+      "isBuilt": true,
+      "exeName": "main",
+      "hasSubPkgs": false
+    }
+  },
+  "jsonHash": "2454151964187722038",
+  "rootPackageName": "RexpToNFA"
+}

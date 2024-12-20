@@ -1,0 +1,61 @@
+[33mwarning[0m: unused variable:'input_chs'
+  [36m==>[0m D:\code\VScode\Cangjie\RexpToNFA\src\SimplifyDFA.cj:23:5:
+   [36m| [0m
+[36m23[0m [36m| [0m    input_chs:ArrayList<Rune>,[0m
+   [36m| [0m    [33m^^^^^^^^^ unused variable[0m
+   [36m| [0m
+   [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+[33mwarning[0m: unused variable:'dfa_initial_state'
+  [36m==>[0m D:\code\VScode\Cangjie\RexpToNFA\src\main.cj:31:9:
+   [36m| [0m
+[36m31[0m [36m| [0m    var dfa_initial_state = 0[0m
+   [36m| [0m        [33m^^^^^^^^^^^^^^^^^ unused variable[0m
+   [36m| [0m
+   [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+[33mwarning[0m: unused function:'simplifyDFA'
+   [36m==>[0m D:\code\VScode\Cangjie\RexpToNFA\src\SimplifyDFA.cj:87:1:
+    [36m| [0m
+[36m87[0m  [36m| [0m  func simplifyDFA(dfa_sum:Int64,dfa_accept_state:HashSet<Int64>,input_chs:ArrayList<Rune>) {[0m
+    [36m| [0m [33m_[0m[33m^[0m
+[36m88[0m  [36m| [0m[33m|[0m     [0m
+    [36m| [0m[33m|[0m ...[0m
+[36m150[0m [36m| [0m[33m|[0m }[0m
+    [36m| [0m[33m|[0m[33m_[0m[33m^ unused function[0m
+    [36m| [0m
+    [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+[33mwarning[0m: unused function:'showSDFA'
+   [36m==>[0m D:\code\VScode\Cangjie\RexpToNFA\src\SimplifyDFA.cj:152:1:
+    [36m| [0m
+[36m152[0m [36m| [0m  func showSDFA(sdfa_accept_state:HashSet<Int64>,states_sum:Int64) {[0m
+    [36m| [0m [33m_[0m[33m^[0m
+[36m153[0m [36m| [0m[33m|[0m     println("-------------- min DFA --------------")[0m
+    [36m| [0m[33m|[0m ...[0m
+[36m173[0m [36m| [0m[33m|[0m }[0m
+    [36m| [0m[33m|[0m[33m_[0m[33m^ unused function[0m
+    [36m| [0m
+    [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+[33mwarning[0m: unused function:'checkBySDFA'
+   [36m==>[0m D:\code\VScode\Cangjie\RexpToNFA\src\SimplifyDFA.cj:175:1:
+    [36m| [0m
+[36m175[0m [36m| [0m  func checkBySDFA(str:String,accept_state:HashSet<Int64>,input_chs:ArrayList<Rune>){[0m
+    [36m| [0m [33m_[0m[33m^[0m
+[36m176[0m [36m| [0m[33m|[0m     var state = 0[0m
+    [36m| [0m[33m|[0m ...[0m
+[36m208[0m [36m| [0m[33m|[0m }[0m
+    [36m| [0m[33m|[0m[33m_[0m[33m^ unused function[0m
+    [36m| [0m
+    [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+[33mwarning[0m: unused variable:'input_chs'
+   [36m==>[0m D:\code\VScode\Cangjie\RexpToNFA\src\RexpToNFA.cj:267:47:
+    [36m| [0m
+[36m267[0m [36m| [0mfunc checkByNFA(str:String,accept_state:Int64,input_chs:ArrayList<Rune>) {[0m
+    [36m| [0m                                              [33m^^^^^^^^^ unused variable[0m
+    [36m| [0m
+    [36m#[0m [0mnote[0m: this warning can be suppressed by setting the compiler option `-Woff unused`
+
+6 warnings generated, 6 warnings printed.

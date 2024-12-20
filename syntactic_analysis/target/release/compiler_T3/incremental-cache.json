@@ -1,0 +1,14 @@
+{
+  "packageInformation": {
+    "compiler_T3": {
+      "rootPackageName": "compiler_T3",
+      "fileNameHash": "8569193534923379793",
+      "timeStamp": 1734686757,
+      "isBuilt": true,
+      "exeName": "main",
+      "hasSubPkgs": false
+    }
+  },
+  "jsonHash": "-2878528763849963729",
+  "rootPackageName": "compiler_T3"
+}

@@ -1,0 +1,14 @@
+{
+  "packageInformation": {
+    "compiler_lexical_analyzer": {
+      "rootPackageName": "compiler_lexical_analyzer",
+      "fileNameHash": "4588327013074529893",
+      "timeStamp": 1734685580,
+      "isBuilt": true,
+      "exeName": "main",
+      "hasSubPkgs": false
+    }
+  },
+  "jsonHash": "-4290357289398716033",
+  "rootPackageName": "compiler_lexical_analyzer"
+}
